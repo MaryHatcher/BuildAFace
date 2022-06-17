@@ -1,0 +1,99 @@
+h1 {
+    display:block;
+    width: auto;
+    height: auto;
+    margin-top:6vw;
+    margin-bottom:0;
+
+    font-family: 'Freckle Face';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15vw;
+    text-align: center;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+a:hover {
+    color:yellow;
+}
+
+#border {
+    margin-top:4vw;
+    margin-bottom:4vw;
+    box-sizing: border-box;
+    margin-left:auto;
+    margin-right:auto;
+
+    width: 89.333333vw;
+    height: 126.666667vw;
+
+    border: 5px solid #000000;
+}
+
+#buttons {
+    position: relative;
+    width: 89.333333vw;
+    height:auto;
+}
+
+.button {
+    position:absolute;
+}
+
+#banner {
+    position:fixed;
+    bottom:0;
+    overflow:hidden;
+    width: 100%;
+    height: 22px;
+    left:0;
+    border:4px solid #000000;
+
+    background: #000000;
+
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: -100px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#bodyb {
+    width: 23vw;
+}
+#hairb {
+    width: 23vw;
+    left:30%;
+}
+#noseb{
+    width: 13vw;
+    left: 60%;
+    margin-top: 2%;
+
+}
+#mouthb{
+    width: 21vw;
+    left: 79%;
+    margin-top: 1%;
+
+}
+#eyeb{
+    width: 18vw;
+    left: 80%;
+    margin-top: 15%;
+
+}
+#browb{
+    width: 28vw;
+    left: 62%;
+    margin-top: 28%;
+    transform: rotate(2deg);
+
+}
