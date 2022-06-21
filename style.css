@@ -139,7 +139,7 @@ a:hover {
 
 }
 #mouthdiv{
-    z-index:5;
+    z-index:4;
 
 }
 #bodydiv{
@@ -150,7 +150,7 @@ a:hover {
 
 }
 #nosediv{
-    z-index:4;
+    z-index:5;
 
 }
 img {
