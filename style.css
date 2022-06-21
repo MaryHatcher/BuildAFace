@@ -1,15 +1,42 @@
-h1 {
-    display:block;
-    width: auto;
-    height: auto;
-    margin-top:6vw;
-    margin-bottom:0;
+html,body{
+    margin:0px
+}
 
+
+#banner {
+    margin-top: 6vw;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    left: 0;
+    margin-bottom: 6vw;
+    z-index: 0;
+}
+h1 {
     font-family: 'Freckle Face';
     font-style: normal;
     font-weight: 400;
-    font-size: 15vw;
+    font-size: 16vw;
     text-align: center;
+    background-color: white;
+    margin: 0;
+}
+
+#link{
+    border-bottom: 0.75vw solid #000000;
+    border-top: 1vw solid #000000;
+    background: #000000;
+    color: #FFFFFF;
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    text-align: center;
+    width: 89.333333vw;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
 a {
@@ -20,80 +47,111 @@ a:hover {
     color:yellow;
 }
 
-#border {
-    margin-top:4vw;
-    margin-bottom:4vw;
-    box-sizing: border-box;
-    margin-left:auto;
-    margin-right:auto;
-
+.feature {
+    position: absolute;
+    top: 36.6vw;
+    left: 5.4vw;
     width: 89.333333vw;
-    height: 126.666667vw;
+}
 
+#actualborder {
+    position: absolute;
+    top: 37.6vw;
+    left: 5.4vw;
+    width: 89.333333vw;
+    height: 102.5vw;
+    box-sizing: border-box;
     border: 5px solid #000000;
+    z-index: 10;
+
+}
+
+#border {
+    z-index: 14;
+    bottom: 46vw;
+    box-sizing: border-box;
+    margin-left: auto;
+    width: 89.333333vw;
+    height: 102.5vw;
+    border: 5px solid #000000;
+    z-index: 0;
+    margin-bottom: 10vh;
+    margin-right: auto;
 }
 
 #buttons {
-    position: relative;
-    width: 89.333333vw;
-    height:auto;
+
+    position: sticky;
+    width: 100vw;
+    height: 40vw;
+    border-top: 5px solid #000000;
+    padding-top: 6vw;
+    background-color: white;
+    bottom: 0;
+    z-index:15;
 }
 
 .button {
     position:absolute;
 }
 
-#banner {
-    position:fixed;
-    top:0;
-    overflow:hidden;
-    width: 100%;
-    height: 22px;
-    left:0;
-    border:4px solid #000000;
-
-    background: #000000;
-
-    font-family: 'Alata';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: -100px;
-    text-align: center;
-
-    color: #FFFFFF;
-
-}
 
 #bodyb {
     width: 23vw;
+    left: 2%;
 }
 #hairb {
     width: 23vw;
     left:30%;
 }
 #noseb{
-    width: 13vw;
-    left: 60%;
+    width: 14vw;
+    left: 57%;
     margin-top: 2%;
 
 }
 #mouthb{
     width: 21vw;
-    left: 79%;
+    left: 76%;
     margin-top: 1%;
 
 }
 #eyeb{
-    width: 18vw;
-    left: 80%;
+    width: 19vw;
+    left: 76%;
     margin-top: 15%;
 
 }
 #browb{
     width: 28vw;
-    left: 62%;
-    margin-top: 28%;
+    left: 60%;
+    margin-top: 27%;
     transform: rotate(2deg);
 
+}
+#eyesdiv{
+    z-index:3;
+
+}
+#browsdiv{
+    z-index:2;
+
+}
+#mouthdiv{
+    z-index:5;
+
+}
+#bodydiv{
+    z-index:1;
+}
+#hairdiv{
+    z-index:6;
+
+}
+#nosediv{
+    z-index:4;
+
+}
+img {
+    width: 89.333333vw;
 }
