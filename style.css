@@ -93,6 +93,7 @@ a:hover {
 
 .button {
     position:absolute;
+    touch-action: manipulation;
 }
 
 
